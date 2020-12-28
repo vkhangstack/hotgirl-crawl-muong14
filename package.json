@@ -1,0 +1,24 @@
+{
+  "name": "hotgirl-crawl-muong14",
+  "version": "1.0.0",
+  "description": "Use Nodejs + Puppeteer + image-downloader crawl and download images from muong14",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkhang-stack/hotgirl-crawl-muong14.git"
+  },
+  "author": "Pham Van Khang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkhang-stack/hotgirl-crawl-muong14/issues"
+  },
+  "homepage": "https://github.com/vkhang-stack/hotgirl-crawl-muong14#readme",
+  "dependencies": {
+    "image-downloader": "^4.0.2",
+    "puppeteer": "^5.5.0"
+  }
+}
